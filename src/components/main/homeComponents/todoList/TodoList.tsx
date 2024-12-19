@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import AddTodo from "../../../shared/addTodo/AddTodo";
 import TodoCards from "../../../shared/todoCards/TodoCards";
 import { TodoContext } from "../../../../context/todoProvider";

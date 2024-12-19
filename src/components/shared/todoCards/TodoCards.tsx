@@ -1,11 +1,10 @@
 import {
   IconAlignBoxLeftTopFilled,
   IconLink,
-  IconBookmark,
   IconBookmarkFilled,
   IconBookmarkPlus,
 } from "@tabler/icons-react";
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { TodoContext } from "../../../context/todoProvider";
 
 const TodoCards = ({ todo }: any) => {
