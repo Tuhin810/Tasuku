@@ -4,9 +4,8 @@ import VideoList from "../../components/main/homeComponents/videoList/VideoList"
 
 const Home = () => {
   return (
-    <div className="h-screen px-5 ">
-      <Navbar />
-      <div className="md:flex items-start mt-4">
+    <div className="h-screen px-5 overflow-hidden">
+      <div className="md:flex items-start mt-4 ">
         <TodoList />
         <VideoList />
       </div>
