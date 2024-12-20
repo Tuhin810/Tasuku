@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { fetchFromAPI } from "../../utils/api/fetchFromAPI";
@@ -6,7 +6,7 @@ import Loader from "../../components/shared/loaders/loader1/Loder";
 
 const VideoDetails = () => {
   const [videoDetail, setVideoDetail] = useState<any>(null);
-  const [videos, setVideos] = useState([]);
+  const [, setVideos] = useState([]);
   const { id } = useParams();
 
   useEffect(() => {

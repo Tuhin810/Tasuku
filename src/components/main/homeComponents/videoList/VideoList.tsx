@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   IconSearch,
   IconDownload,
-  IconBookmarkPlus,
   IconPlayerPlayFilled,
 } from "@tabler/icons-react";
 import { fetchFromAPI } from "../../../../utils/api/fetchFromAPI";

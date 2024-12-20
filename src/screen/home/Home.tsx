@@ -1,4 +1,3 @@
-import Navbar from "../../components/shared/navbar/Navbar";
 import TodoList from "../../components/main/homeComponents/todoList/TodoList";
 import VideoList from "../../components/main/homeComponents/videoList/VideoList";
 
